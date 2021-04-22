@@ -10,6 +10,7 @@ require("./util/eventLoader.js")(client);
 const data = require("quick.db");
 const queue = new Map();
 const ytdl = require("ytdl-core");
+const db = require("quick.db")
 
 //-----------------------------------------------\\
 const http = require("http");
