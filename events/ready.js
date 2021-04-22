@@ -16,5 +16,5 @@ module.exports = client => {
   var rastgeleOyun = Math.floor(Math.random() * msgArray.length);
   client.user.setActivity(`${msgArray[rastgeleOyun]}`)
 }, 5000);
-    console.log(`Cary başarıyla giriş yaptı.`);
+    console.log(`Asperius başarıyla giriş yaptı.`);
 }
